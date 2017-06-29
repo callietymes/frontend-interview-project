@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Ulysses",
+      "image": "",
+      "page_count": 230,
+      "author": 1
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "James Joyce",
+      "avatar": "",
+      "bio": "",
+      "books": [
+        1
+      ]
+    }
+  ]
+}

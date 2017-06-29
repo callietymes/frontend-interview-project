@@ -7,10 +7,10 @@
   "dependencies": {
     "json-server": "^0.10.3"
   },
-  "name": "Library",
+  "name": "frontend-interview-project",
   "version": "1.0.0",
-  "description": "Build a library",
-  "main": "index.js",
+  "description": "A base project with a working JSON server and webpack dev server to use when interviewing front-end candidates. Edit Add topics",
+  "main": "src/app.js",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.1",

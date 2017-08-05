@@ -1,10 +1,11 @@
+$gray: #edeff2;
 /**
  * Write your CSS here.
  *
  * TODO: Add base styles?
  */
 body {
-  background: #edeff2;
+  background: $gray;
   margin: 0;
   line-height: 1;
 }

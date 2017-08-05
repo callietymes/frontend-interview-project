@@ -1,4 +1,4 @@
-import './styles.css'
+import './styles.scss'
 
 /**
  * This is the app's entry point. Feel free to write your code here or create

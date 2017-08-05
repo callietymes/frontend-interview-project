@@ -24,32 +24,17 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
-
+        test: /\.scss$/,
         use: [
-          {
-            loader: 'style-loader'
-          },
-          {
-            loader: 'css-loader',
-
-            options: {
-              sourceMap: true,
-              importLoaders: 1
-            }
-          },
-          {
-            loader: 'postcss-loader',
-            options: {
-              plugins: () => [precss, autoprefixer]
-            }
-          }
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
+          { loader: 'sass-loader' }
         ]
       }
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'src'),
     compress: true,
     port: 9000
   }

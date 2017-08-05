@@ -4,18 +4,74 @@
       "id": 1,
       "title": "Ulysses",
       "image": "",
-      "page_count": 230,
+      "page_count": 810,
       "author": 1
+    },
+    {
+      "id": 2,
+      "title": "A Portrait of the Artist as a Young Man",
+      "image": "",
+      "page_count": 329,
+      "author": 1
+    },
+    {
+      "id": 3,
+      "title": "White Noise",
+      "image": "",
+      "page_count": 320,
+      "author": 2
+    },
+    {
+      "id": 4,
+      "title": "Underworld",
+      "image": "",
+      "page_count": 827,
+      "author": 2
+    },
+    {
+      "id": 5,
+      "title": "Dubliners",
+      "image": "images/dubliners.jpg",
+      "page_count": 207,
+      "author": 1
+    },
+    {
+      "id": 6,
+      "title": "Falling Man",
+      "image": "",
+      "page_count": 246,
+      "author": 2
+    },
+    {
+      "id": 10,
+      "title": "Point Omega",
+      "image": "",
+      "page_count": 117,
+      "author": 2
     }
   ],
   "authors": [
     {
       "id": 1,
       "name": "James Joyce",
-      "avatar": "",
-      "bio": "",
+      "avatar": "./images/james-joyce.jpg",
+      "bio": "James Joyce, Irish novelist, noted for his experimental use of language in such works as Ulysses (1922) and Finnegans Wake (1939). Joyce's technical innovations in the art of the novel include an extensive use of interior monologue; he used a complex network of symbolic parallels drawn from the mythology, history, and literature, and created a unique language of invented words, puns, and allusions.",
       "books": [
-        1
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Don Dellilo",
+      "avatar": "./images/don-delillo.jpg",
+      "bio": "Don DeLillo is an American author best known for his novels, which paint detailed portraits of American life in the late 20th and early 21st centuries. He currently lives outside of New York City.",
+      "books": [
+        3,
+        4,
+        6,
+        10
       ]
     }
   ]

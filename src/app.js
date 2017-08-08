@@ -2,7 +2,8 @@ import './styles.scss'
 
 /**
  * This is the app's entry point. Feel free to write your code here or create
- * separate files and import them using ES imports. Feel free to use ES2015 code.
+ * separate files and import them using ES imports. Feel free to use ES2015 code,
+ * including Object Rest/Spread.
  *
  * API:
  *

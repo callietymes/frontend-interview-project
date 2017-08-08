@@ -54,6 +54,7 @@
     {
       "id": 1,
       "name": "James Joyce",
+      "favorite": false,
       "avatar": "./images/james-joyce.jpg",
       "bio": "James Joyce, Irish novelist, noted for his experimental use of language in such works as Ulysses (1922) and Finnegans Wake (1939). Joyce's technical innovations in the art of the novel include an extensive use of interior monologue; he used a complex network of symbolic parallels drawn from the mythology, history, and literature, and created a unique language of invented words, puns, and allusions.",
       "books": [
@@ -65,6 +66,7 @@
     {
       "id": 1,
       "name": "Don Dellilo",
+      "favorite": false,
       "avatar": "./images/don-delillo.jpg",
       "bio": "Don DeLillo is an American author best known for his novels, which paint detailed portraits of American life in the late 20th and early 21st centuries. He currently lives outside of New York City.",
       "books": [

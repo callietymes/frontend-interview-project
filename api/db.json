@@ -40,7 +40,7 @@
     {
       "id": 2,
       "title": "A Portrait of the Artist as a Young Man",
-      "image": "./images/a-portrait-of-the-artist-as-a-young-man.jpg",
+      "image": "./images/a-portrait-of-the-artist.jpg",
       "page_count": 329,
       "author_id": 1
     },
@@ -75,7 +75,7 @@
     {
       "id": 7,
       "title": "For Whom the Bell Tolls",
-      "image": "./images/for-whom-the-bell-tolls.jpg",
+      "image": "./images/for-whom-the-bell-tools.jpg",
       "page_count": 471,
       "author_id": 3
     },

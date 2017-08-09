@@ -3,28 +3,28 @@
     {
       "id": 1,
       "title": "Ulysses",
-      "image": "",
+      "image": "./images/ulysses.jpg",
       "page_count": 810,
       "author": 1
     },
     {
       "id": 2,
       "title": "A Portrait of the Artist as a Young Man",
-      "image": "",
+      "image": "./images/a-portrait-of-the-artist-as-a-young-man.jpg",
       "page_count": 329,
       "author": 1
     },
     {
       "id": 3,
       "title": "White Noise",
-      "image": "",
+      "image": "./images/white-noise.jpg",
       "page_count": 320,
       "author": 2
     },
     {
       "id": 4,
       "title": "Underworld",
-      "image": "",
+      "image": "./images/underworld.jpg",
       "page_count": 827,
       "author": 2
     },
@@ -38,16 +38,79 @@
     {
       "id": 6,
       "title": "Falling Man",
-      "image": "",
+      "image": "./images/falling-man.jpg",
       "page_count": 246,
       "author": 2
     },
     {
+      "id": 7,
+      "title": "For Whom the Bell Tolls",
+      "image": "./images/for-whom-the-bell-tolls.jpg",
+      "page_count": 471,
+      "author": 3
+    },
+    {
+      "id": 8,
+      "title": "The Old Man and the Sea",
+      "image": "./images/the-old-man-and-the-sea.jpg",
+      "page_count": 132,
+      "author": 3
+    },
+    {
+      "id": 9,
+      "title": "The Sun Also Rises",
+      "image": "./images/the-sun-also-rises.jpg",
+      "page_count": 256,
+      "author": 3
+    },
+    {
       "id": 10,
       "title": "Point Omega",
-      "image": "",
+      "image": "./images/point-omega.jpg",
       "page_count": 117,
       "author": 2
+    },
+    {
+      "id": 11,
+      "title": "A Farewell to Arms",
+      "image": "./images/a-farewell-to-arms.jpg",
+      "page_count": 293,
+      "author": 3
+    },
+    {
+      "id": 12,
+      "title": "The Sound and the Fury",
+      "image": "./images/the-sound-and-the-fury.jpg",
+      "page_count": 326,
+      "author": 4
+    },
+    {
+      "id": 13,
+      "title": "As I Lay Dying",
+      "image": "./images/as-i-lay-dying.jpg",
+      "page_count": 267,
+      "author": 4
+    },
+    {
+      "id": 14,
+      "title": "Absalom, Absalom!",
+      "image": "./images/absalom-absalom.jpg",
+      "page_count": 320,
+      "author": 4
+    },
+    {
+      "id": 15,
+      "title": "A Rose for Emily and Other Stories",
+      "image": "./images/a-rose-for-emily.jpg",
+      "page_count": 140,
+      "author": 4
+    },
+    {
+      "id": 16,
+      "title": "Light in August",
+      "image": "./images/light-in-august.jpg",
+      "page_count": 507,
+      "author": 4
     }
   ],
   "authors": [
@@ -64,7 +127,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Don Dellilo",
       "favorite": false,
       "avatar": "./images/don-delillo.jpg",
@@ -74,6 +137,33 @@
         4,
         6,
         10
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ernest Hemmingway",
+      "favorite": false,
+      "avatar": "./images/hemmingway.jpg",
+      "bio": "Ernest Miller Hemingway was an American author and journalist. His economical and understated style had a strong influence on 20th-century fiction, while his life of adventure and his public image influenced later generations. Hemingway produced most of his work between the mid-1920s and the mid-1950s, and won the Nobel Prize in Literature in 1954. He published seven novels, six short story collections and two non-fiction works. Three novels, four collections of short stories and three non-fiction works were published posthumously. Many of these are considered classics of American literature.",
+      "books": [
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": 4,
+      "name": "William Faulkner",
+      "favorite": false,
+      "avatar": "./images/faulkner.jpg",
+      "bio": "William Cuthbert Faulkner was a Nobel Prize-winning American novelist and short story writer. One of the most influential writers of the twentieth century, his reputation is based mostly on his novels, novellas, and short stories. He was also a published poet and an occasional screenwriter.",
+      "books": [
+        12,
+        13,
+        14,
+        15,
+        16
       ]
     }
   ]

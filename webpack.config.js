@@ -5,12 +5,6 @@ const precss = require('precss')
 
 module.exports = {
   entry: './src/app.js',
-
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  },
-
   module: {
     rules: [
       {

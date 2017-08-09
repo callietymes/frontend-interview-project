@@ -12,4 +12,3 @@ import './styles.scss'
  *
  * You can preview the JSON responses in api/db.json
  */
-

@@ -1,170 +1,146 @@
 {
-  "books": [
-    {
-      "id": 1,
-      "title": "Ulysses",
-      "image": "./images/ulysses.jpg",
-      "page_count": 810,
-      "author": 1
-    },
-    {
-      "id": 2,
-      "title": "A Portrait of the Artist as a Young Man",
-      "image": "./images/a-portrait-of-the-artist-as-a-young-man.jpg",
-      "page_count": 329,
-      "author": 1
-    },
-    {
-      "id": 3,
-      "title": "White Noise",
-      "image": "./images/white-noise.jpg",
-      "page_count": 320,
-      "author": 2
-    },
-    {
-      "id": 4,
-      "title": "Underworld",
-      "image": "./images/underworld.jpg",
-      "page_count": 827,
-      "author": 2
-    },
-    {
-      "id": 5,
-      "title": "Dubliners",
-      "image": "images/dubliners.jpg",
-      "page_count": 207,
-      "author": 1
-    },
-    {
-      "id": 6,
-      "title": "Falling Man",
-      "image": "./images/falling-man.jpg",
-      "page_count": 246,
-      "author": 2
-    },
-    {
-      "id": 7,
-      "title": "For Whom the Bell Tolls",
-      "image": "./images/for-whom-the-bell-tolls.jpg",
-      "page_count": 471,
-      "author": 3
-    },
-    {
-      "id": 8,
-      "title": "The Old Man and the Sea",
-      "image": "./images/the-old-man-and-the-sea.jpg",
-      "page_count": 132,
-      "author": 3
-    },
-    {
-      "id": 9,
-      "title": "The Sun Also Rises",
-      "image": "./images/the-sun-also-rises.jpg",
-      "page_count": 256,
-      "author": 3
-    },
-    {
-      "id": 10,
-      "title": "Point Omega",
-      "image": "./images/point-omega.jpg",
-      "page_count": 117,
-      "author": 2
-    },
-    {
-      "id": 11,
-      "title": "A Farewell to Arms",
-      "image": "./images/a-farewell-to-arms.jpg",
-      "page_count": 293,
-      "author": 3
-    },
-    {
-      "id": 12,
-      "title": "The Sound and the Fury",
-      "image": "./images/the-sound-and-the-fury.jpg",
-      "page_count": 326,
-      "author": 4
-    },
-    {
-      "id": 13,
-      "title": "As I Lay Dying",
-      "image": "./images/as-i-lay-dying.jpg",
-      "page_count": 267,
-      "author": 4
-    },
-    {
-      "id": 14,
-      "title": "Absalom, Absalom!",
-      "image": "./images/absalom-absalom.jpg",
-      "page_count": 320,
-      "author": 4
-    },
-    {
-      "id": 15,
-      "title": "A Rose for Emily and Other Stories",
-      "image": "./images/a-rose-for-emily.jpg",
-      "page_count": 140,
-      "author": 4
-    },
-    {
-      "id": 16,
-      "title": "Light in August",
-      "image": "./images/light-in-august.jpg",
-      "page_count": 507,
-      "author": 4
-    }
-  ],
   "authors": [
     {
       "id": 1,
       "name": "James Joyce",
       "favorite": false,
       "avatar": "./images/james-joyce.jpg",
-      "bio": "James Joyce, Irish novelist, noted for his experimental use of language in such works as Ulysses (1922) and Finnegans Wake (1939). Joyce's technical innovations in the art of the novel include an extensive use of interior monologue; he used a complex network of symbolic parallels drawn from the mythology, history, and literature, and created a unique language of invented words, puns, and allusions.",
-      "books": [
-        1,
-        2,
-        5
-      ]
+      "bio": "James Joyce, Irish novelist, noted for his experimental use of language in such works as Ulysses (1922) and Finnegans Wake (1939). Joyce's technical innovations in the art of the novel include an extensive use of interior monologue; he used a complex network of symbolic parallels drawn from the mythology, history, and literature, and created a unique language of invented words, puns, and allusions."
     },
     {
       "id": 2,
       "name": "Don Dellilo",
       "favorite": false,
       "avatar": "./images/don-delillo.jpg",
-      "bio": "Don DeLillo is an American author best known for his novels, which paint detailed portraits of American life in the late 20th and early 21st centuries. He currently lives outside of New York City.",
-      "books": [
-        3,
-        4,
-        6,
-        10
-      ]
+      "bio": "Don DeLillo is an American author best known for his novels, which paint detailed portraits of American life in the late 20th and early 21st centuries. He currently lives outside of New York City."
     },
     {
       "id": 3,
       "name": "Ernest Hemmingway",
       "favorite": false,
       "avatar": "./images/hemmingway.jpg",
-      "bio": "Ernest Miller Hemingway was an American author and journalist. His economical and understated style had a strong influence on 20th-century fiction, while his life of adventure and his public image influenced later generations. Hemingway produced most of his work between the mid-1920s and the mid-1950s, and won the Nobel Prize in Literature in 1954. He published seven novels, six short story collections and two non-fiction works. Three novels, four collections of short stories and three non-fiction works were published posthumously. Many of these are considered classics of American literature.",
-      "books": [
-        7,
-        8,
-        9,
-        11
-      ]
+      "bio": "Ernest Miller Hemingway was an American author and journalist. His economical and understated style had a strong influence on 20th-century fiction, while his life of adventure and his public image influenced later generations. Hemingway produced most of his work between the mid-1920s and the mid-1950s, and won the Nobel Prize in Literature in 1954. He published seven novels, six short story collections and two non-fiction works. Three novels, four collections of short stories and three non-fiction works were published posthumously. Many of these are considered classics of American literature."
     },
     {
       "id": 4,
       "name": "William Faulkner",
       "favorite": false,
       "avatar": "./images/faulkner.jpg",
-      "bio": "William Cuthbert Faulkner was a Nobel Prize-winning American novelist and short story writer. One of the most influential writers of the twentieth century, his reputation is based mostly on his novels, novellas, and short stories. He was also a published poet and an occasional screenwriter.",
-      "books": [
-        12,
-        13,
-        14,
-        15,
-        16
-      ]
+      "bio": "William Cuthbert Faulkner was a Nobel Prize-winning American novelist and short story writer. One of the most influential writers of the twentieth century, his reputation is based mostly on his novels, novellas, and short stories. He was also a published poet and an occasional screenwriter."
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Ulysses",
+      "image": "./images/ulysses.jpg",
+      "page_count": 810,
+      "author_id": 1
+    },
+    {
+      "id": 2,
+      "title": "A Portrait of the Artist as a Young Man",
+      "image": "./images/a-portrait-of-the-artist-as-a-young-man.jpg",
+      "page_count": 329,
+      "author_id": 1
+    },
+    {
+      "id": 3,
+      "title": "White Noise",
+      "image": "./images/white-noise.jpg",
+      "page_count": 320,
+      "author_id": 2
+    },
+    {
+      "id": 4,
+      "title": "Underworld",
+      "image": "./images/underworld.jpg",
+      "page_count": 827,
+      "author_id": 2
+    },
+    {
+      "id": 5,
+      "title": "Dubliners",
+      "image": "images/dubliners.jpg",
+      "page_count": 207,
+      "author_id": 1
+    },
+    {
+      "id": 6,
+      "title": "Falling Man",
+      "image": "./images/falling-man.jpg",
+      "page_count": 246,
+      "author_id": 2
+    },
+    {
+      "id": 7,
+      "title": "For Whom the Bell Tolls",
+      "image": "./images/for-whom-the-bell-tolls.jpg",
+      "page_count": 471,
+      "author_id": 3
+    },
+    {
+      "id": 8,
+      "title": "The Old Man and the Sea",
+      "image": "./images/the-old-man-and-the-sea.jpg",
+      "page_count": 132,
+      "author_id": 3
+    },
+    {
+      "id": 9,
+      "title": "The Sun Also Rises",
+      "image": "./images/the-sun-also-rises.jpg",
+      "page_count": 256,
+      "author_id": 3
+    },
+    {
+      "id": 10,
+      "title": "Point Omega",
+      "image": "./images/point-omega.jpg",
+      "page_count": 117,
+      "author_id": 2
+    },
+    {
+      "id": 11,
+      "title": "A Farewell to Arms",
+      "image": "./images/a-farewell-to-arms.jpg",
+      "page_count": 293,
+      "author_id": 3
+    },
+    {
+      "id": 12,
+      "title": "The Sound and the Fury",
+      "image": "./images/the-sound-and-the-fury.jpg",
+      "page_count": 326,
+      "author_id": 4
+    },
+    {
+      "id": 13,
+      "title": "As I Lay Dying",
+      "image": "./images/as-i-lay-dying.jpg",
+      "page_count": 267,
+      "author_id": 4
+    },
+    {
+      "id": 14,
+      "title": "Absalom, Absalom!",
+      "image": "./images/absalom-absalom.jpg",
+      "page_count": 320,
+      "author_id": 4
+    },
+    {
+      "id": 15,
+      "title": "A Rose for Emily and Other Stories",
+      "image": "./images/a-rose-for-emily.jpg",
+      "page_count": 140,
+      "author_id": 4
+    },
+    {
+      "id": 16,
+      "title": "Light in August",
+      "image": "./images/light-in-august.jpg",
+      "page_count": 507,
+      "author_id": 4
     }
   ]
 }

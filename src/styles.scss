@@ -1,11 +1,19 @@
+@import 'scss/reset';
+@import 'scss/fonts';
+
+// variables
+// -----------------------------------------------------------------------------
 $gray: #edeff2;
-/**
- * Write your CSS here.
- *
- * TODO: Add base styles?
- */
+$body-font-color: #4a4a4a;
+$body-font-family: 'Open Sans', sans-serif;
+$heading-font-color: #162428;
+$border-color: #e4e4e4;
+$drop-shadow: 0 5px 8px rgba( 0, 0, 0, .1);
+
+// Write your CSS here
+// -----------------------------------------------------------------------------
 body {
   background: $gray;
-  margin: 0;
-  line-height: 1;
+  font: normal 1em $body-font-family;
+  color: $body-font-color;
 }

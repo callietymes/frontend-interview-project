@@ -1,1 +1,4 @@
 node_modules/
+/src/fonts/.DS_Store
+/frontend-interview-project.iml
+/.idea

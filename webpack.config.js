@@ -25,8 +25,28 @@ module.exports = {
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
-          { loader: 'sass-loader' }
+          {
+            loader: 'resolve-url-loader'
+          },
+          {
+            loader: 'sass-loader',
+            options:  {
+              // So we can use @import statements
+              includePaths: [
+                path.resolve(
+                  __dirname, 'src'
+                )
+              ]
+            }
+          }
         ]
+      },
+      {
+        test: /\.(eot|otf|ttf|woff|woff2)(\?.*)?$/,
+        loader: 'file-loader',
+        options: {
+          name: 'font/[name].[hash].[ext]'
+        }
       }
     ]
   },

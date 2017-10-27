@@ -17,3 +17,34 @@ body {
   font: normal 1em $body-font-family;
   color: $body-font-color;
 }
+
+.main {
+  //display: flex;
+}
+.authorBio {
+  justify-content: center;
+  width: 80%;
+  background-color: white;
+  font-family: $body-font-family;
+  color: $body-font-color;
+  display: flex;
+  box-shadow: $drop-shadow;
+  .name {
+    font-weight: bold;
+  }
+  .details {
+    padding: 20px;
+    .bio {
+      font-size: 14px;
+      padding-top: 10px;
+    }
+  }
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  display: flex;
+  padding-top: 20px;
+}
+

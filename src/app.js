@@ -12,3 +12,25 @@ import './styles.scss'
  *
  * You can preview the JSON responses in api/db.json
  */
+
+(function () {
+    function MainController($scope) {
+        const vm = this;
+        fetch('http://localhost:8001/authors').then(function (results) {
+            results.json().then((data) => {
+                $scope.authors = data;
+                $scope.$applyAsync();
+            });
+        });
+        fetch('http://localhost:8001/books').then(function (results) {
+            results.json().then((data) => {
+                $scope.books = data;
+                $scope.$applyAsync();
+            });
+        });
+
+        $scope.authors.each((author) => {
+            author.books = $scope.books.filter((book) => book.author_id === author.id);
+        });
+    }
+})();
